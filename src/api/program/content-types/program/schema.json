@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programs",
+  "info": {
+    "singularName": "program",
+    "pluralName": "programs",
+    "displayName": "MessFee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "semester": {
+      "type": "integer"
+    },
+    "expected_start_date": {
+      "type": "date"
+    },
+    "expected_end_date": {
+      "type": "date"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "program_name": {
+      "type": "enumeration",
+      "enum": [
+        "b_tech",
+        "m_tech",
+        "msc",
+        "bs",
+        "phd"
+      ]
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "course": {
+      "type": "enumeration",
+      "enum": [
+        "it",
+        "cs"
+      ]
+    },
+    "due_date": {
+      "type": "date"
+    }
+  }
+}

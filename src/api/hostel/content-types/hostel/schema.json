@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hostels",
+  "info": {
+    "singularName": "hostel",
+    "pluralName": "hostels",
+    "displayName": "Hostel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hostel_name": {
+      "type": "string"
+    },
+    "block": {
+      "type": "string"
+    }
+  }
+}
