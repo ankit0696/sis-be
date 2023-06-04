@@ -17,6 +17,12 @@
     },
     "block": {
       "type": "string"
+    },
+    "room": {
+      "type": "string"
+    },
+    "occupancy": {
+      "type": "integer"
     }
   }
 }
